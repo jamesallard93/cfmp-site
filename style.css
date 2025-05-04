@@ -383,20 +383,20 @@
 }
 
 /* Weather Section */
-.weather {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 30px 20px;
-  background-color: #f9f9f9;
+.weather-widget {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
   border-radius: 12px;
-  text-align: center;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.weather-widget h2 {
+  color: #0f3f2c;
+  margin-bottom: 20px;
 }
 
-.weather h2 {
-  color: #0f3f2c;
-  margin-bottom: 15px;
-}
 
 
 /* Footer */

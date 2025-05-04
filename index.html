@@ -118,14 +118,24 @@
         width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy">
       </iframe>
     </div>
-    <section class="weather">
-      <h2>Today's Weather</h2>
-      <iframe
-        src="https://forecast7.com/en/30d59n95d13/coldspring/?unit=us"
-        frameborder="0"
-        width="100%" height="245">
-      </iframe>
-    </section>
+    <!-- Weather Widget -->
+<section class="weather-widget">
+  <h2>Local Weather – Coldspring, TX</h2>
+  <a class="weatherwidget-io" href="https://forecast7.com/en/30d59n95d13/coldspring/" data-label_1="COLDSPRING" data-label_2="WEATHER" data-theme="original" >COLDSPRING WEATHER</a>
+</section>
+
+<!-- Script for widget to work -->
+<script>
+!function(d,s,id){
+  var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id)){
+    js=d.createElement(s);js.id=id;
+    js.src='https://weatherwidget.io/js/widget.min.js';
+    fjs.parentNode.insertBefore(js,fjs);
+  }
+}(document,'script','weatherwidget-io-js');
+</script>
+
     
   </section>
   
